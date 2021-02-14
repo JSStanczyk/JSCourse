@@ -1,0 +1,39 @@
+h1{
+    color:darkred;
+    text-align: center;
+    font-size: 36px;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+}
+
+.menu a:link, .menu a:visited{
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    display: block;
+    width: 180px;
+    height: 20px;
+    font-size: 15px;
+    border: 1px solid red;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.menu a:hover{
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+}
+
+.menu a:active{
+    background-color: black;
+    color: red;
+    border: red;
+}
